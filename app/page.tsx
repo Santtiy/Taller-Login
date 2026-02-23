@@ -1,13 +1,13 @@
 export default function Home() {
 	return (
 		<main className="min-h-screen bg-gradient-to-b from-[#f5e9ff] via-[#e7d4ff] to-[#c38bff] flex items-center justify-center px-4 py-10">
-			<section className="w-full max-w-6xl bg-white/90 backdrop-blur-xl shadow-2xl rounded-[32px] overflow-hidden grid grid-cols-1 lg:grid-cols-2">
+			<section className="w-full max-w-6xl bg-white/90 backdrop-blur-xl shadow-2xl rounded-[30px] overflow-hidden grid grid-cols-1 lg:grid-cols-2">
 				{/* Panel ilustración */}
 				<aside className="relative block h-64 sm:h-80 lg:h-auto bg-gradient-to-br from-[#2e1149] via-[#4b1f72] to-[#8b1e84]">
 					<img
 						src="https://i.pinimg.com/736x/2f/3b/c2/2f3bc29b872651193596252eb704f870.jpg"
 						alt="Astronauta ilustración"
-						className="absolute inset-0 h-full w-full object-cover rounded-[32px]"
+						className="absolute inset-0 h-full w-full object-cover rounded-[30px]"
 					/>
 				</aside>
 
